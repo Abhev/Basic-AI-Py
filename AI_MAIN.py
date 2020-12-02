@@ -290,19 +290,17 @@ if __name__ == "__main__" : #this is the main place where our code will run
         elif "science textbook" in query:
             engine.Speak("Finding File from TCS-ION,May take some time")
             
-            webbrowser.open("file:///E:/Abhev/1@Academics/Class7/Term1_Sci_PCB_Syllabus_Ronak.pdf")
+            webbrowser.open(# The file location where u have stored your science text book in quotes)
         elif "science text book" in query:
-            webbrowser.open("file:///E:/Abhev/1@Academics/Class7/Term1_Sci_PCB_Syllabus_Ronak.pdf")
+            webbrowser.open(# The file location where u have stored your science text book)
         
         elif "maths textbook term one" in query:
             engine.Speak("Finding from TCS-ION")
-            webbrowser.open("file:///E:/Abhev/1@Academics/Class7/Math_TERM_1_HOMENOTES.pdf")
+            webbrowser.open(# The file location where u have stored your maths text book in quotes)
         elif "maths textbook term 1" in query:
             engine.Speak("Finding from TCS-ION")
-            webbrowser.open("file:///E:/Abhev/1@Academics/Class7/Math_TERM_1_HOMENOTES.pdf")
-        elif "maths text book term 1" in query:
-            engine.Speak("Finding from TCS-ion")
-            webbrowser.open("file:///E:/Abhev/1@Academics/Class7/Math_TERM_1_HOMENOTES.pdf")
+            webbrowser.open(# The file location where u have stored your maths text book)
+       
         elif "time for lunch" in query:
             webbrowser.open("https://www.dailymail.co.uk/health/article-2593219/Revealed-The-best-times-eat-breakfast-lunch-dinner-want-lose-weight-need-make-sure-youre-7am.html#:~:text=Revealed%3A%20The%20best%20times%20to%20eat%20breakfast%2C%20lunch,in%20the%20evening%2C%20so%20calories%20are%20not%20burned")
        
@@ -321,17 +319,11 @@ if __name__ == "__main__" : #this is the main place where our code will run
             webbrowser.open("https://www.worldometers.info/coronavirus/")
             engine.Speak("This is a Covid-19 tracker made by worldometer.")
 
-        elif "Covid-19 symptoms" in query:
-            engine.speak("Making an Covid-19 Symptoms file")
-            webbrowser.open("file:///E:/Abhev/covid-19.html")
-            engine.Speak("You can find mainly all of the covid-19 symptoms can be found in this link")
+        
         elif "What is Covid-19" in query:
             engine.Speak('Covid-19(even called Coronavirus) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).[9] It was first identified in December 2019 in Wuhan, Hubei, China, and has resulted in an ongoing pandemic.[10][11] The first confirmed case has been traced back to 17 November 2019 in Hubei.[12] As of 6 August 2020, more than 18.7 million cases have been reported across 188 countries and territories, resulting in more than 706,000 deaths. More than 11.3 million people have recovered.[8] ')
             print('Covid-19(even called Coronavirus) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).[9] It was first identified in December 2019 in Wuhan, Hubei, China, and has resulted in an ongoing pandemic.[10][11] The first confirmed case has been traced back to 17 November 2019 in Hubei.[12] As of 6 August 2020, more than 18.7 million cases have been reported across 188 countries and territories, resulting in more than 706,000 deaths. More than 11.3 million people have recovered.[8] ')
-        elif "grade 7 online timetable" in query:
-            webbrowser.open("file:///E:/Abhev/1@Academics/Class7/Online/Pdf_timetable/TimeTable-PDF.pdf")
-            engine.Speak("But sir as i got info from I-Camous-Buddy, you are going to have a different day timetbale on a different day. SO i am Opening That file too.")
-            webbrowser.open("file:///E:/Abhev/1@Academics/Class7/Online/@Review1/Grade%207%20-%20VLS%20TT%20AUGUST%202020.pdf")
+       
         
                         
         else:
